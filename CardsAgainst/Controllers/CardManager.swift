@@ -8,7 +8,7 @@
 
 import Foundation
 
-private let pg13 = true
+private let pg13 = false
 
 private func loadCards() -> ([Card], [Card]) {
     let resourceName = pg13 ? "cards_pg13" : "cards"
